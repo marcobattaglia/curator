@@ -283,7 +283,7 @@
         <module>curator-client</module>
         <module>curator-test</module>
         <module>curator-framework</module>
-        <module>curator-recipes</module>
+        <module>curator-recipes-custom</module>
         <module>curator-examples</module>
         <module>curator-x-discovery</module>
         <module>curator-x-discovery-server</module>
@@ -324,7 +324,7 @@
 
             <dependency>
                 <groupId>org.apache.curator</groupId>
-                <artifactId>curator-recipes</artifactId>
+                <artifactId>curator-recipes-custom</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
